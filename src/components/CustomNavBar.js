@@ -29,7 +29,7 @@ function CustomNavBar() {
         <header className='bg-primary h-[15%] flex items-center fixed top-0 left-0 w-full z-50'>
             <div className='max-w-[1100px] w-full mx-auto flex justify-between px-8 relative'>
                 <div onClick={() => navigate('/')} className='cursor-pointer h-full flex items-center'>
-                    <img src={require('../assets/images/logo.png')} className='h-6 w-auto'></img>
+                    <img src={require('../assets/images/logo.png')} alt={'aora-logo'} className='h-6 w-auto'></img>
                 </div>
                 <div className='flex gap-2 items-center'>
                     <div className='flex sm:hidden'>

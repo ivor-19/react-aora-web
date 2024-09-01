@@ -16,7 +16,7 @@ function Signup() {
             <header className='bg-primary min-h-[10%] flex items-center fixed top-0 left-0 w-full z-10'>
                 <div className='max-w-[1000px] w-full mx-auto flex justify-between'>
                     <div onClick={() => navigate('/')} className='cursor-pointer'>
-                        <img src={require('../../assets/images/logo.png')} className='h-6 w-auto'></img>
+                        <img src={require('../../assets/images/logo.png')} alt={'aora-logo'} className='h-6 w-auto'></img>
                     </div> 
                     <div className='flex gap-12 items-center'>
                         <span className='font-poppins-regular text-sm text-gray-500'>Already have an account? </span>
@@ -33,7 +33,7 @@ function Signup() {
             <div className='h-screen-[90%] flex items-center justify-center'>
                 <div className='w-[450px] bg-black-first rounded-[30px] p-8 flex flex-col items-center gap-8'>
                     <div className=''>
-                        <img src={require('../../assets/images/logo.png')} color='white' className='h-8 w-auto'></img>
+                        <img src={require('../../assets/images/logo.png')} alt={'aora-logo'} color='white' className='h-8 w-auto'></img>
                     </div>
                     <div className='w-full flex flex-col gap-6'>
                         <FormField 
