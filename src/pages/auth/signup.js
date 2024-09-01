@@ -8,7 +8,7 @@ import CustomFooter from '../../components/CustomFooter';
 
 function Signup() {
     const navigate = useNavigate();
-    //UPDATED
+    //UPDATED NOWNOWN
     return (
         <div className='bg-primary h-screen custom-scrollbar'>
             <div className='min-h-[12%]'></div>
