@@ -1,5 +1,4 @@
 import React from 'react'
-import CustomNav from '../components/CustomNav'
 import CustomButton from '../components/CustomButton'
 import CustomNavBar from '../components/CustomNavBar'
 import CustomFooter from '../components/CustomFooter'
@@ -7,8 +6,8 @@ import CustomFooter from '../components/CustomFooter'
 function Home() {
   return (
     <div className='h-screen bg-primary relative overflow-x-hidden custom-scrollbar '>
-        <img src={require('../assets/images/bg-shape-4.png')} alt={'bg-shape-4'} className='h-[60%] w-auto absolute top-20 left-0 opacity-90 z-0'></img>
-        <img src={require('../assets/images/bg-shape-3.png')} alt={'bg-shape-3'} className='h-[80%] w-auto absolute top-60 -right-64 opacity-90 z-0'></img>
+        <img src={require('../assets/images/bg-shape-4.png')} alt="" className='h-[60%] w-auto absolute top-20 left-0 opacity-90 z-0'></img>
+        <img src={require('../assets/images/bg-shape-3.png')} alt="" className='h-[80%] w-auto absolute top-60 -right-64 opacity-90 z-0'></img>
         <CustomNavBar
 
         />
@@ -34,7 +33,7 @@ function Home() {
                 </div>
             </div>            
         </div>
-        <img src={require('../assets/images/bg-shape-5.png')} alt={'bg-shape-5'} className='h-[70%] w-auto absolute top-[600px] left-[200px] opacity-90  z-10'></img>
+        <img src={require('../assets/images/bg-shape-5.png')} alt="" className='h-[70%] w-auto absolute top-[600px] left-[200px] opacity-90  z-10'></img>
         <div className='h-screen bg-primary'>
             <div className={'max-w-[1000px] h-full w-full mx-auto gap-20 flex flex-col'}>
                 {/* <div className='h-[50%] w-full flex flex-wrap items-center justify-center gap-4'>

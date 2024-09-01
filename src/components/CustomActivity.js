@@ -6,7 +6,7 @@ function CustomButton({ customPressed, customStyle, handleClick, customImage }) 
         className={`box-border bg-white h-40 w-40 hover:opacity-80 rounded-xl flex items-center justify-center ${customStyle} ${customPressed}`}
         onClick={handleClick}
     >
-      <img src={customImage} alt={'image-icon'} className='h-[60%] w-[60%]'></img>
+      <img src={customImage} alt="icon" className='h-[60%] w-[60%]'></img>
     </button>
   )
 }
