@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'ultra';
+    src: url(../public/Ultra-Regular.ttf);
+}
+.ultra{
+    font-family: "ultra";
+}
+
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(../public/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: PoppinsSemiBold;
+    src: url(../public/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: PoppinsBold;
+    src: url(../public/fonts/Poppins-Bold.ttf);
+}
+

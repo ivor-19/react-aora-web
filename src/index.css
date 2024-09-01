@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-scrollbar {
+    @apply overflow-y-scroll scrollbar-thin scrollbar-thumb-secondary scrollbar-track-black-first;
+}
+
+.custom-footer-pointer-list li {
+    @apply cursor-pointer hover:underline hover:text-secondary;
+}
+
+.custom-footer-pointer-icon li {
+    @apply cursor-pointer hover:text-tertiary;
+}
